@@ -9,6 +9,14 @@ LayerEdge is the first decentralized network that enhances the capabilities of B
 ```bash
 apt-install screen
 ```
+## 1.1 Install GO
+```bash
+wget https://go.dev/dl/go1.23.0.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf go1.23.0.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+echo 'export PATH=$PATH:/usr/local/go/bin' >>~/.bashrc
+```
 
 ## 2. Install Light-Node
 ```bash
